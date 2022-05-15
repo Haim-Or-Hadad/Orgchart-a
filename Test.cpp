@@ -62,4 +62,5 @@ TEST_CASE("change the root"){
     CHECK_NOTHROW(org2.add_sub("manager","assistant2"));
     CHECK_THROWS(org2.add_sub("assistant3","player1"));//no assistant3
     }
+
 }
